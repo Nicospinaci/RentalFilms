@@ -1,0 +1,241 @@
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    /* Sumate Mobile */
+  
+    .sumate_trabaja {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 90px;
+        h1 {
+          font-size: 18px;
+        }
+      &_p {
+        margin: 0 auto;
+        align-items: center;
+        width: 80%;
+        font-size: 16px;
+        padding-bottom: 20px;
+      }
+      }
+      .sumate_forms {
+        width: 100%;
+        height: 240px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+        &_labels {
+          display: flex;
+          flex-direction: column;
+          font-size: 16px;
+          gap: 5px;
+        }
+        &_inputs {
+          display: flex;
+          gap: 9px;
+          flex-direction: column;
+        }
+        &_inputs_box {
+          height: 20px;
+            }
+        &_sexo {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              gap: 20px;
+              height: 40px;
+              font-size: 16px;
+            }
+            &_contenedor {
+              display: flex;
+              justify-content: center;
+            }
+            &_acepta {
+              padding-top: 10px;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              font-size: 12px;
+              
+            }
+            &_enviar {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              width: 100%;
+              gap: 15px;
+              padding-top: 15px;
+            }
+            &_checkbox{
+              width: 8%;
+              }
+      }
+      .sumate_textarea {
+        width: 80%;
+        height: 120px;
+      }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {  
+    /* Sumate Tablet */
+  
+    .sumate_trabaja {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        width: 100%;
+        h1 {
+        font-size: 20px;
+        text-decoration: underline;
+        }
+        &_p {
+          margin: 0 auto;
+          align-items: center;
+          width: 80%;
+          font-size: 16px;
+          padding-top: 15px;
+          padding-bottom: 16px;
+  
+        }
+      }
+      .sumate_forms {
+        width: 100%;
+        height: 240px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+        &_labels {
+          display: flex;
+          flex-direction: column;
+          font-size: 16px;
+          gap: 5px;
+        }
+        &_inputs {
+          display: flex;
+          gap: 9px;
+          flex-direction: column;
+        }
+        &_inputs_box {
+          height: 20px;
+          input {
+            height: 9%;
+          }
+            }
+            &_sexo {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              gap: 20px;
+              height: 40px;
+              font-size: 16px;
+            }
+            &_contenedor {
+              display: flex;
+              justify-content: center;
+            }
+            &_acepta {
+              padding-top: 15px;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              font-size: 12px;
+            }
+            &_enviar {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              gap: 15px;
+              padding-top: 15px;
+            }
+            &_checkbox{
+              width: 5%;
+            }
+      }
+      .sumate_textarea {
+        width: 60%;
+        height: 120px;
+      }
+    
+}
+
+@media (min-width: 1024px) {
+   /* Inicio Estilo Sumate Desktop */
+   .sumate {
+    &_trabaja {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 80px;
+      width: 100%;
+      height: 200px;
+    }
+    &_trabaja_p {
+      margin: 0 auto;
+      align-items: center;
+      width: 80%;
+      font-size: 18px;
+      padding-bottom: 50px;
+    }
+    &_forms {
+      width: 100%;
+      height: 260px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 30px;
+    }
+    &_forms_labels {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+    &_forms_inputs {
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+    }
+    &_forms_inputs_box {
+      height: 20px;
+        }
+        &_forms_sexo {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          gap: 20px;
+          height: 40px;
+        }
+        &_forms_contenedor {
+          display: flex;
+          justify-content: center;
+        }
+        &_textarea {
+          width: 660px;
+          height: 120px;
+        }
+        &_forms_acepta {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          padding-top: 10px;
+          font-size: 12px;
+        }
+        &_forms_enviar {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          gap: 15px;
+          padding-top: 15px;
+        }
+        &_forms_checkbox {
+          width: 2%;
+        }
+        }
+    
+}

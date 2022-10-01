@@ -1,0 +1,87 @@
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .alquileres_condiciones {
+    text-decoration: underline;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    h1 {
+      padding-top: 15px;
+      font-size: 18px;
+    }
+  }
+  .alquileres_ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 15px;
+    width: 90%;
+    height: 100%;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Alquileres Tablet */
+
+  .alquileres {
+    &_p {
+      margin: 0 auto;
+      width: 5%;
+      height: 100%;
+      font-size: 16px;
+    }
+    &_condiciones h1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 18px;
+      text-decoration: underline;
+      padding-top: 25px;
+      height: 100%;
+    }
+    &_ol {
+      padding-top: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0 15px;
+      width: 90%;
+      height: 100%;
+      font-size: 16px;
+      padding-bottom: 40px;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Inicio Estilo Alquileres Desktop */
+
+  .alquileres {
+    &_p {
+      margin: 0 auto;
+      width: 90%;
+      height: 100%;
+    }
+    &_ol {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      width: 90%;
+      height: 700px;
+      font-size: 18px;
+    }
+    &_condiciones {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 80px;
+      width: 100%;
+      height: 220px;
+    }
+  }
+}

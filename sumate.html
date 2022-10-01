@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rental Films</title>
+    <link rel="icon" type="image/jpg" href="./Images/favicon.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="main_header">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <div style="width:150px;">
+            <a href="./index.html">
+              <h1>
+          <img class="img-fluid w-100 m-auto hidden lg-up" src="./Images/logo_rental_films_white.png" alt="Logo fluid">
+        
+        </a>
+        </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="container collapse navbar-collapse"
+            id="navbarTogglerDemo03">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">              
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./index.html ">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./nosotros.html"
+                  >Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./alquileres.html"
+                  >Alquileres</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./sumate.html">Sumate</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./contacto.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Fin Header -->
+    <main class="sumate">
+      <div class="sumate_trabaja">
+        <h1>Trabajá con Nosotros</h1>
+      </div>
+      <div class="sumate_trabaja_p">
+        <p>
+          Si deseas formar parte de RentalFilms, podés completar el siguiente
+          formulario con todos los datos requeridos o enviarnos tu Curriculum
+          Vitae a <b> cv@rentalfilms.com.ar.</b> <br>
+          Una vez que recibamos tus datos,
+          automáticamente serás incorporado en nuestra base de datos de
+          postulantes.
+        </p>
+      </div>
+      <!-- Forms -->
+      <section class="sumate_forms">
+        <div class="sumate_forms_labels">  
+          <label for="name">Nombre</label>
+          <label for="surname">Apellido</label>
+          <label for="id">Documento</label>
+          <label for="born">Fecha de nacimiento</label>
+          <label for="adress">Dirección</label>
+          <label for="barrio">Barrio</label>
+          <label for="telefono">Teléfono</label>
+          <label for="email">E-mail</label>
+        </div>
+        <div class="sumate_forms_inputs">
+          <input class="sumate_forms_inputs_box" type="name" />
+          <input class="sumate_forms_inputs_box" type="surname" />
+          <input class="sumate_forms_inputs_box" type="id" />
+          <input class="sumate_forms_inputs_box" type="born" />
+          <input class="sumate_forms_inputs_box" type="adress" />
+          <input class="sumate_forms_inputs_box" type="barrio" />
+          <input class="sumate_forms_inputs_box" type="telefono" />
+          <input class="sumate_forms_inputs_box" type="email" />
+        </div>
+      </section>
+        <div class="sumate_forms_sexo">
+          <label for="radio">Mujer</label>
+          <input type="radio" name="sexo" value="Mujer" />
+          <label for="radio">Hombre</label>
+          <input type="radio" name="sexo" value="Hombre" />
+        </div>
+        <div class="sumate_forms_contenedor">
+          <textarea class="sumate_textarea" name="mensaje" id="" cols="54" rows="7" placeholder="Dejanos tu mensaje..."></textarea>
+        </div>
+      <div class="sumate_forms_acepta">
+        <label for="checkbox">Acepta terminos y condiciones</label>
+        <input class="sumate_forms_checkbox" type="checkbox" name="acepta" value="si" />
+      </div>
+      <div class="sumate_forms_enviar">
+          <input type="Submit" value="Enviar formulario" />
+          <input type="Reset" value="Limpiar formulario" />
+      </div>
+        </div>
+      </div>
+      <!-- Fin Forms -->
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+  <br />
+  <br />
+<!-- Footer -->
+<div>
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 p-sm-4 p-md-4 p-xl-4">
+      <!-- Section: Social media -->
+      <section class="p-4 p-sm-4 p-md-4 p-xl-4">
+        <!-- Instagram -->
+        <a
+          class="btn btn-outline-light btn-floating m-1"
+          href="https://instagram.com"
+          role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <!-- Twitter -->
+        <a
+          class="btn btn-outline-light btn-floating m-1"
+          href="https://twitter.com"
+          role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <!-- Facebook -->
+        <a
+          class="btn btn-outline-light btn-floating m-1"
+          href="https://facebook.com"
+          role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+
+        <!-- Mail -->
+        <a
+          class="btn btn-outline-light btn-floating m-1"
+          href="https://gmail.com"
+          role="button"
+          ><i class="fas fa-at"></i
+        ></a>
+          <!-- Grid container -->
+          <div class="container p-4 pb-0" class>
+            <!-- Section: Form -->
+            <section class="suscribe">
+              <form action="">
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center">
+                  <!--Grid column-->
+                  <div class="col-auto">
+                    <p class="pt-2">
+                      Suscribite a nuestro newsletter!
+                    </p>
+                  </div>
+                  <!--Grid column-->
+                  <div class="col-md-4 col-12">
+                    <!-- Email input -->
+                    <div class="form-outline form-white mb-4">
+                      <input type="email" id="form5Example2" class="form-control" placeholder="E-mail"/>
+                    </div>
+                  </div>
+                  <!--Grid column-->
+                  <div class="col-auto">
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-outline-light mb-4">
+                      Suscribirse
+                    </button>
+                  </div>
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+              </form>
+            </section>
+            <!-- Section: Form -->
+          </div>
+      </section>
+
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2022 Copyright:
+      <a class="text-white" href="https://google.com/">www.rentalfilms.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</div>
+<!-- Fin Footer -->
+</html>

@@ -1,0 +1,223 @@
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    /* Contacto Mobile */
+  
+    .main_contacto {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        height: 100%;
+      }
+      .contacto_mapa {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 300px;
+        img {
+          margin: 0 auto;
+          width: 90%;
+        }
+      }
+      .contacto_forms {
+        width: 100%;
+        height: 110px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1f 1fr;
+        gap: 2px;
+        &_img {
+          width: 80%;
+          padding: 40px; 
+          }
+          &_inputs {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            font-size: 12px;
+            padding-top: 20px;
+            padding-right: 30px;
+          }
+          &_texto_contenedor {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+          }
+          &_texto {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 90%;
+            height: 100px;
+          }
+          &_submit {
+            display: flex;
+            align-items: start;
+            justify-content: center;
+            height: 50px;
+          }
+          }
+      .input_scale_contacto {
+        width: 100%;
+        height: 20px;
+      }
+      .footer {
+        height: 100%;
+      }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {  
+    /* Contacto Tablet */
+  
+    .main_contacto {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        height: 100%;
+      }
+      .contacto_mapa {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        width: 100%;
+        height: 320px;
+      }
+    
+      .contacto_forms {
+        width: 100%;
+        height: 160px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1f 1fr;
+        gap: 2px;
+        &_img {
+          width: 100%;
+          padding: 40px;
+          padding-left: 160px;
+        }
+        &_inputs {
+          width: 80%;
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          font-size: 12px;
+          padding-top: 20px;
+          padding-right: 30px;
+        }
+        &_texto_contenedor {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          padding: 10px;
+        }
+        &_texto {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 90%;
+          height: 200px;
+        }
+        &_submit {
+          display: flex;
+          align-items: start;
+          justify-content: center;
+          height: 50px;
+        }
+      }
+      .input_scale {
+        width: 99%;
+        height: 16px;
+      }
+      .footer {
+        height: 100%;
+      }
+    
+}
+
+@media (min-width: 1024px) {
+    /* Inicio Estilo Contacto Desktop */
+  
+    .main_contacto {
+        margin: 0 auto;
+        height: 1000px;
+      }
+      .contacto_mapa {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 80px;
+        height: 450px;
+        img {
+          width: 70%;
+      }
+      }
+      .contacto_forms {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 80px;
+        gap: 20px;
+        &_labels {
+          display: flex;
+          flex-direction: column;
+          font-size: 19px;
+        }
+        &_inputs {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          width: 30%;
+        }
+        &_texto {
+          display: flex;
+          justify-content: center;
+        }
+        &_submit {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 15px;
+          padding-top: 20px;
+        }
+        &_img {
+          width: 80%;
+          animation-name: Loop;
+          animation-iteration-count: infinite;
+          animation-timing-function: cubic-bezier(90%);
+          animation-duration: 5s;
+          animation-delay: 0s;
+          @keyframes Loop {
+            0% {
+              opacity: 0%;
+              transform: scale(40%);
+            }
+            35% {
+              opacity: 100%;
+            }
+            90% {
+              transform: scale(100%);
+            }
+            60% {
+              opacity: 100%;
+            }
+            100% {
+              opacity: 0%;
+            }
+        }
+      }
+    
+}
+
+
+}
